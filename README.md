@@ -94,7 +94,7 @@
 1. Заполните kubrik.json и users.json по шаблону
 2. Разместите все файлы в одной директории
 4. Установите зависимости: 
-   pip install pyTelegramBotAPI sqlite3
+   pip install -r requirements.txt
 5. Измените значение переменной BOT_TOKEN в файле main.py на API токен вашего бота.
 6. Запустите бота: python main.py
 7. Для применения изменений в .json и .db файлах 
